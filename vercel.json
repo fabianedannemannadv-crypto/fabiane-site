@@ -1,19 +1,6 @@
 {
   "cleanUrls": true,
   "trailingSlash": false,
-  "redirects": [
-    {
-      "source": "/(.*)",
-      "has": [
-        {
-          "type": "host",
-          "value": "www.fabianedannemann.adv.br"
-        }
-      ],
-      "destination": "https://fabianedannemann.adv.br/$1",
-      "permanent": true
-    }
-  ],
   "headers": [
     {
       "source": "/sitemap.xml",
