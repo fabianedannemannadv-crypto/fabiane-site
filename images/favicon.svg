@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Fundo navy -->
+  <rect width="64" height="64" rx="6" fill="#0f1f3d"/>
+  <!-- Borda dourada fina -->
+  <rect x="2" y="2" width="60" height="60" rx="5" fill="none" stroke="#b8975a" stroke-width="1.5"/>
+  <!-- Letra F -->
+  <text x="14" y="44" 
+    font-family="Georgia, serif" 
+    font-size="34" 
+    font-weight="normal"
+    font-style="italic"
+    fill="#b8975a"
+    letter-spacing="-2">F</text>
+  <!-- Letra D -->
+  <text x="32" y="44" 
+    font-family="Georgia, serif" 
+    font-size="34" 
+    font-weight="normal"
+    font-style="italic"
+    fill="#d4b07a"
+    letter-spacing="-2">D</text>
+</svg>
