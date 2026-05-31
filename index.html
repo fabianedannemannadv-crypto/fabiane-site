@@ -9,7 +9,7 @@
   <meta name="author" content="Fabiane Dannemann">
   <meta name="facebook-domain-verification" content="1eo1gzpnku9fqfoyo3fdubecgbjkfu">
   <meta name="robots" content="index, follow">
-  <link rel="preload" as="image" href="/images/fabiane-hero.jpg" fetchpriority="high">
+  <link rel="preload" as="image" href="/images/fabiane-hero.webp" type="image/webp" fetchpriority="high">
   <link rel="canonical" href="https://fabianedannemann.adv.br/">
 
   <!-- Open Graph -->
@@ -477,7 +477,10 @@ footer{background:#080f1e;padding:3rem 8%;display:grid;grid-template-columns:1.5
     </div>
   </div>
   <div class="hero-photo">
-    <img src="/images/fabiane-hero.jpg" alt="Dra. Fabiane Dannemann — Advogada Previdenciária" loading="eager" fetchpriority="high" alt="Dra. Fabiane Dannemann — Advogada Previdenciária">
+    <picture>
+        <source srcset="/images/fabiane-hero.webp" type="image/webp">
+        <img src="/images/fabiane-hero.jpg" alt="Dra. Fabiane Dannemann — Advogada Previdenciária" loading="eager" fetchpriority="high" alt="Dra. Fabiane Dannemann — Advogada Previdenciária">
+      </picture>
     <div class="hero-photo-overlay"></div>
     <div class="hero-photo-badge">
       <p>"Cada caso é único.<br>Cada pessoa merece atenção."</p>
